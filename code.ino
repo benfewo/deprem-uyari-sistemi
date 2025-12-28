@@ -7,7 +7,7 @@ MPU6050 sensor;
 const int ledPin_K = 6; // Yeşil LED uyarı pini
 const int ledPin_Y = 7; // Kırmızı LED uyarı pini
 const int buzzer = 8; // Buzzer uyarı pini
-const int threshold = 21000; // Sarsıntı eşiği (deneyerek ayarlayabilirsin)
+const int threshold = 21000; // Sarsıntı eşiği
 
 void setup() {
   Serial.begin(9600);
